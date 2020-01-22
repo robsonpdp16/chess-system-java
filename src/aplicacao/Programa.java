@@ -1,11 +1,13 @@
 package aplicacao;
 
+import tabuleiroJogo.Tabuleiro;
+
 public class Programa {
 
 	public static void main(String[] args) {
 		
 		
-		System.out.println(" olá Mundo!! ");
+		Tabuleiro tabuleiro = new Tabuleiro(8, 8);
 
 	}
 

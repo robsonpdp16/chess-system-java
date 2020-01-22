@@ -1,4 +1,4 @@
-package tabuleiro;
+package tabuleiroJogo;
 
 public class Posicao {
 
@@ -31,6 +31,8 @@ public class Posicao {
 	}
 	
 	@Override
-	public String to
+	public String toString() {
+		return linha + " , " + coluna;
+	}
 
 }
